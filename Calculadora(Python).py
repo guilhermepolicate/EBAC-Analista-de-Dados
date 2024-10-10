@@ -8,15 +8,15 @@ print("\n")
 print("Olá ", nome1 + " " + nome2)
 print("\n")
 
-num1 = int(input("Por favor digite o primeiro número de 0 a 9: \n"))
+num1 = int(input("Por favor digite o primeiro número de 1 a 9: \n"))
 print("O primeiro número é: ", num1, "\n")
-while (num1 > 9) or (num1 < 0):
-  num1 = int(input("Por favor digite um número de 0 a 9: \n"))
+while (num1 > 9) or (num1 < 1):
+  num1 = int(input("Por favor digite um número de 1 a 9: \n"))
 
-num2 = int(input("Por favor digite o segundo número de 0 a 9: \n"))
+num2 = int(input("Por favor digite o segundo número de 1 a 9: \n"))
 print("O segundo número é: ", num2, "\n")
-while (num2 > 9) or (num2 < 0):
-  num2 = int(input("Por favor digite um número de 0 a 9: \n"))
+while (num2 > 9) or (num2 < 1):
+  num2 = int(input("Por favor digite um número de 1 a 9: \n"))
 
 soma = num1 + num2
 print("O resultado da soma é do tipo ",(type(soma)))
